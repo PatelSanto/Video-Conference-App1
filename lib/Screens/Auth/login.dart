@@ -189,7 +189,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
             icon: Icons.login_outlined,
           );
           Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (context) => const HomePage()),
+            MaterialPageRoute(builder: (context) => HomePage()),
           );
           setState(() {
             isLoadingLogin = false;

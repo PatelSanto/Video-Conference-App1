@@ -1,17 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:video_conference_app1/Widgets/Side_Menu.dart';
 import 'package:video_conference_app1/ZegoCloud/join_page.dart';
 import 'package:video_conference_app1/ZegoCloud/new_meeting.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+  HomePage({super.key});
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _scaffoldKey,
       appBar: AppBar(
-        title: const Text("Video Conference"),
+        backgroundColor: Colors.purple[300],
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+        title: Text("Video Conference"),
         centerTitle: true,
+        foregroundColor: Colors.white,
+        leading: IconButton(
+            onPressed: () {
+              _scaffoldKey.currentState!.openDrawer();
+            },
+            icon: Icon(Icons.menu_rounded)),
       ),
+      drawer: SideMenu(scaffoldKey: _scaffoldKey),
       body: Column(
         children: [
           Padding(

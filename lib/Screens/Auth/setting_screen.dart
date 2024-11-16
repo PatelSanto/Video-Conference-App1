@@ -60,7 +60,7 @@ class _SettingScreenState extends ConsumerState<SettingScreen> {
             iconOrImage: const Icon(Icons.notifications),
             title: "Notifications",
             onTap: () {},
-            subTitle: "Messages, group and others",
+            subTitle: "Messages, Group and Others",
           ),
           const SizedBox(
             height: 10,
@@ -68,7 +68,7 @@ class _SettingScreenState extends ConsumerState<SettingScreen> {
           _customListtile(
             iconOrImage: const Icon(Icons.help),
             title: "Help",
-            subTitle: "Help center,contact us, privacy policy",
+            subTitle: "Help Center, Contact Us, Privacy Policy",
             onTap: () {},
           ),
           const SizedBox(

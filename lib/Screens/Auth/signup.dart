@@ -199,7 +199,7 @@ class _SignupScreenState extends ConsumerState<SignupScreen> {
             icon: Icons.login_outlined,
           );
           Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (context) => const HomePage()),
+            MaterialPageRoute(builder: (context) => HomePage()),
           );
           setState(() {
             isLoadingSignup = false;
@@ -313,7 +313,7 @@ Widget otherSigninMethods(
             await authService.handleGoogleSignIn().then((value) {
               if (value) {
                 Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => const HomePage()),
+                  MaterialPageRoute(builder: (context) => HomePage()),
                 );
               }
             });

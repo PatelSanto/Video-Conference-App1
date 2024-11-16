@@ -40,7 +40,7 @@ class AuthService {
             print('User Firebase: ${user?.email}');
             print("User is signed in: to home screen : ${user?.displayName}");
 
-            return const HomePage();
+            return HomePage();
           } else {
             print("User is not signed in: to auth screen");
             return const SignupScreen();
