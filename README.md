@@ -1,10 +1,10 @@
 # Video-Conference-App
 
-This project is a portfolio showcase demonstrating my skills in mobile app development using the Flutter framework and Dart. It incorporates modern state management with ZEGO CLoud API for seamless video calling and screen sharing with chatting and Firebase integration for authentication, database, and storage.
+This project is a portfolio showcase demonstrating my skills in mobile app development using the Flutter framework and Dart. It incorporates with ZEGO Cloud API for seamless video calling and screen sharing with chatting and Firebase integration for authentication, database, and storage.
 
 ## Download APK
 
-[Download the latest release APK](https://drive.google.com/drive/folders/1TL6eFN9yY9MuoKBhHQD0Sxp2fAQLxlT4?usp=sharing)
+[Download the latest release APK](https://drive.google.com/file/d/1VumcJSgqXf7QivqfWg8z2rjWbM3HcgX0/view?usp=sharing)
 
 ## Project Highlights:
 
@@ -26,7 +26,6 @@ This project is a portfolio showcase demonstrating my skills in mobile app devel
 ## Tech Stack
 
 - **Flutter (Dart)**: For building the UI and handling the app's core functionality.
-- **Riverpod**: For efficient state management.
 - **Firebase**: For authentication, database, and storage.
 - **ZEGO Cloud API**: Used for real-time Video Conferencing, Chatting and Screen Sharing.
 
